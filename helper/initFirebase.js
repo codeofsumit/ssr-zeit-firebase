@@ -1,10 +1,10 @@
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/firestore'
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: '',
-    authDomain: '',
-    projectId: ''
+    apiKey: 'AIzaSyARkVHeCs5NzQ3ReQrqlmrqKWTUdQfIykw',
+    projectId: 'efuture-f946d'
   })
 }
 
